@@ -9,6 +9,14 @@
 #ifndef YaoYD_pch
 #define YaoYD_pch
 
-//
+/********************Category*********************/
+
+/********************Vender***********************/
+
+/********************Macro************************/
+#import "KApiMacro.h"
+#import "KAppKeyMacro.h"
+#import "KImageMacro.h"
+#import "KNotificaitonMacro.h"
 
 #endif /* YaoYD_pch */

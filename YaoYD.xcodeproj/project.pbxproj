@@ -72,6 +72,10 @@
 		7C2EBA931CABBBBC00CFD2FA /* YaoYD.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YaoYD.pch; sourceTree = "<group>"; };
 		7C2EBA941CABBBF600CFD2FA /* HeaderFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFiles.h; sourceTree = "<group>"; };
 		7C2EBA961CABC20400CFD2FA /* iconfontMenuBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconfontMenuBack.jpg; sourceTree = "<group>"; };
+		7C2EBA981CABD53A00CFD2FA /* KNotificaitonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNotificaitonMacro.h; sourceTree = "<group>"; };
+		7C2EBA991CABD54600CFD2FA /* KImageMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KImageMacro.h; sourceTree = "<group>"; };
+		7C2EBA9B1CABD55E00CFD2FA /* KApiMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KApiMacro.h; sourceTree = "<group>"; };
+		7C2EBA9C1CABD59200CFD2FA /* KAppKeyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppKeyMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,10 @@
 		7C2EBA351CABAD7600CFD2FA /* Marco */ = {
 			isa = PBXGroup;
 			children = (
+				7C2EBA981CABD53A00CFD2FA /* KNotificaitonMacro.h */,
+				7C2EBA991CABD54600CFD2FA /* KImageMacro.h */,
+				7C2EBA9B1CABD55E00CFD2FA /* KApiMacro.h */,
+				7C2EBA9C1CABD59200CFD2FA /* KAppKeyMacro.h */,
 			);
 			path = Marco;
 			sourceTree = "<group>";
@@ -673,6 +681,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = YaoYD/YaoYD.pch;
 				INFOPLIST_FILE = YaoYD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -686,6 +695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = YaoYD/YaoYD.pch;
 				INFOPLIST_FILE = YaoYD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
