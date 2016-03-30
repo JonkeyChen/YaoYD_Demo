@@ -9,5 +9,11 @@
 #ifndef KApiMacro_h
 #define KApiMacro_h
 
+#define kRequestType_GET     @"GET"
+#define kRequestType_POST    @"POST"
+#define kRequestType_PUT     @"PUT"
+#define kRequestType_DELETE  @"DELETE"
+
+
 
 #endif /* KApiMacro_h */
