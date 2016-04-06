@@ -32,6 +32,10 @@
 		7C2EBA8B1CABB54E00CFD2FA /* 768-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2EBA851CABB54D00CFD2FA /* 768-1024.png */; };
 		7C2EBA8E1CABB8BF00CFD2FA /* PersonInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2EBA8D1CABB8BF00CFD2FA /* PersonInfoVC.m */; };
 		7C2EBA971CABC20400CFD2FA /* iconfontMenuBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2EBA961CABC20400CFD2FA /* iconfontMenuBack.jpg */; };
+		7C5524AE1CACF7A000D6FBE3 /* NetService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5524AD1CACF7A000D6FBE3 /* NetService.m */; };
+		7CC3FFAF1CB3A85B002F22DC /* PaintCodeTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3FFAE1CB3A85B002F22DC /* PaintCodeTutorial.m */; };
+		7CC3FFB21CB3B90C002F22DC /* Watch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3FFB11CB3B90C002F22DC /* Watch.m */; };
+		7CC3FFB51CB3B914002F22DC /* WatchHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3FFB41CB3B914002F22DC /* WatchHand.m */; };
 		BF85C4F6BBEA0A9A1FA07B96 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D297CC7FB1C889A3222B339E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +82,14 @@
 		7C2EBA991CABD54600CFD2FA /* KImageMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KImageMacro.h; sourceTree = "<group>"; };
 		7C2EBA9B1CABD55E00CFD2FA /* KApiMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KApiMacro.h; sourceTree = "<group>"; };
 		7C2EBA9C1CABD59200CFD2FA /* KAppKeyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppKeyMacro.h; sourceTree = "<group>"; };
+		7C5524AC1CACF7A000D6FBE3 /* NetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetService.h; sourceTree = "<group>"; };
+		7C5524AD1CACF7A000D6FBE3 /* NetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetService.m; sourceTree = "<group>"; };
+		7CC3FFAD1CB3A85B002F22DC /* PaintCodeTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintCodeTutorial.h; sourceTree = "<group>"; };
+		7CC3FFAE1CB3A85B002F22DC /* PaintCodeTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintCodeTutorial.m; sourceTree = "<group>"; };
+		7CC3FFB01CB3B90C002F22DC /* Watch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Watch.h; sourceTree = "<group>"; };
+		7CC3FFB11CB3B90C002F22DC /* Watch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Watch.m; sourceTree = "<group>"; };
+		7CC3FFB31CB3B914002F22DC /* WatchHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchHand.h; sourceTree = "<group>"; };
+		7CC3FFB41CB3B914002F22DC /* WatchHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchHand.m; sourceTree = "<group>"; };
 		D297CC7FB1C889A3222B339E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4C6224C9BC515D8E4E209F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +144,7 @@
 		7C2EBA1C1CABABDB00CFD2FA /* YaoYD */ = {
 			isa = PBXGroup;
 			children = (
+				7C5524A81CACF53C00D6FBE3 /* Service */,
 				7C2EBA8F1CABBA3300CFD2FA /* Extern */,
 				7C2EBA681CABAF9600CFD2FA /* Resource */,
 				7C2EBA361CABAD7600CFD2FA /* Sections */,
@@ -437,6 +450,12 @@
 		7C2EBA551CABAD7600CFD2FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7CC3FFAD1CB3A85B002F22DC /* PaintCodeTutorial.h */,
+				7CC3FFAE1CB3A85B002F22DC /* PaintCodeTutorial.m */,
+				7CC3FFB01CB3B90C002F22DC /* Watch.h */,
+				7CC3FFB11CB3B90C002F22DC /* Watch.m */,
+				7CC3FFB31CB3B914002F22DC /* WatchHand.h */,
+				7CC3FFB41CB3B914002F22DC /* WatchHand.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -518,6 +537,15 @@
 				7C2EBA961CABC20400CFD2FA /* iconfontMenuBack.jpg */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		7C5524A81CACF53C00D6FBE3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7C5524AC1CACF7A000D6FBE3 /* NetService.h */,
+				7C5524AD1CACF7A000D6FBE3 /* NetService.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -657,11 +685,15 @@
 				7C2EBA5E1CABAEC600CFD2FA /* TJ_StidumVC.m in Sources */,
 				7C2EBA671CABAF0200CFD2FA /* TJ_MineVC.m in Sources */,
 				7C2EBA641CABAEF500CFD2FA /* TJ_EventVC.m in Sources */,
+				7C5524AE1CACF7A000D6FBE3 /* NetService.m in Sources */,
 				7C2EBA221CABABDB00CFD2FA /* AppDelegate.m in Sources */,
 				7C2EBA8E1CABB8BF00CFD2FA /* PersonInfoVC.m in Sources */,
 				7C2EBA5B1CABAE9C00CFD2FA /* BaseController.m in Sources */,
 				7C2EBA7E1CABB25600CFD2FA /* TJTabBarController.m in Sources */,
 				7C2EBA611CABAEE600CFD2FA /* TJ_CoachVC.m in Sources */,
+				7CC3FFB21CB3B90C002F22DC /* Watch.m in Sources */,
+				7CC3FFAF1CB3A85B002F22DC /* PaintCodeTutorial.m in Sources */,
+				7CC3FFB51CB3B914002F22DC /* WatchHand.m in Sources */,
 				7C2EBA1F1CABABDB00CFD2FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

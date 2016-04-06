@@ -5,7 +5,7 @@ pod 'MJExtension', '~> 3.0.10'
 pod 'AFNetworking', '~> 3.0.4'
 pod 'SDWebImage', '~> 3.7.5'
 pod 'ReactiveCocoa', '~>2.5'
-pod 'SDAutoLayout', '~> 1.31'
+pod 'SDAutoLayout', '~> 1.50'
 
 
 
